@@ -9,5 +9,5 @@ class Game(models.Model):
 class Player(models.Model):
     name = models.CharField(max_length=50)
     score = models.IntegerField(default=0)
-    game = models.ForeignKey(Game, on_delete=models.CASCADE, related_name="players")
-    rolls = models.IntegerField(default=0)
+    game = models.ForeignKey(Game, on_delete=models.CASCADE, related_name='players')
+    #hand 

@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'game.apps.GameConfig',
+    'Blackjack.apps.GameConfig',
     'corsheaders',
 ]
 
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_.urls'
+ROOT_URLCONF = 'Redjack.urls'
 
 TEMPLATES = [
     {
